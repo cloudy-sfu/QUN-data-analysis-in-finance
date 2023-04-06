@@ -1,0 +1,19 @@
+[Lesson 5]
+Hypothesis testing.ipynb
+Population and Sample.ipynb
+Variation of Sample.ipynb
+Confidence Interval.ipynb
+
+[Lesson 4]
+Frequency and Distribution.ipynb
+Models of Stock Return.ipynb
+Outcomes and Random Variables.ipynb
+
+[Lesson 3]
+Build a simple trading strategy.ipynb
+
+[Lesson 2]
+Create new features and columns in DataFrame.ipynb
+Introduction to DataFrame.ipynb
+
+[Lesson 1]
