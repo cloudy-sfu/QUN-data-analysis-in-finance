@@ -1,3 +1,10 @@
+[Lesson 6]
+Association between two random variables.ipynb
+Diagnostic of models.ipynb
+Evaluating strategy built from Regression model.ipynb
+Multiple linear regression model.ipynb
+Simple linear regression model.ipynb
+
 [Lesson 5]
 Hypothesis testing.ipynb
 Population and Sample.ipynb
