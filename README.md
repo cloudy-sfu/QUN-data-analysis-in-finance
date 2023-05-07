@@ -1,11 +1,20 @@
-# QUN-Data-Analysis-in-Finance
-![](https://shields.io/badge/language-zh--CN-pink)
+# QUN data analysis in finance
 
-| English     |                                         | 中文     |                            |
-| ----------- | --------------------------------------- | -------- | -------------------------- |
-| Course name | Python Data Analysis in Finance         | 课程名称 | Python 金融数据分析        |
-| Institution | Qinghai University for Nationalities    | 学校     | 青海民族大学               |
-| Semester    | 2022-2023 Academic Year<br />Semester 2 | 学期     | 2022-2023学年<br />第2学期 |
+|             | Meta Information                            |
+| ----------- | ------------------------------------------- |
+| Course name | Python Data Analysis in Finance             |
+| Institution | Qinghai University for Nationalities, China |
+| Semester    | 2022-2023 Academic Year, Semester 2         |
+| Language    | Chinese (Simplified)                        |
+
+
+
+|          | 属性                     |
+| -------- | ------------------------ |
+| 课程名称 | Python 金融数据分析      |
+| 学校     | 青海民族大学，中国       |
+| 学期     | 2022~2023学年度，第2学期 |
+| 语言     | 简体中文                 |
 
 ## 1. Quick start
 
