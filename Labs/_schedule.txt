@@ -1,3 +1,6 @@
+[Lesson 7]
+Foundamental of Machine Learning.ipynb
+
 [Lesson 6]
 Association between two random variables.ipynb
 Diagnostic of models.ipynb

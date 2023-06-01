@@ -1,0 +1,43 @@
+\documentclass[UTF-8]{ctexart}
+\usepackage[a4paper,margin=1in]{geometry}
+\usepackage{graphicx}
+\usepackage{listings}
+\usepackage{fancyhdr}
+\usepackage{sectsty}
+\usepackage{float}
+\usepackage{amssymb}
+\usepackage{amsmath}
+\usepackage{amsthm}
+
+\usepackage{xcolor}
+\usepackage{tcolorbox}
+\usepackage{xeCJK}
+% https://github.com/wordshub/free-font
+\setCJKmainfont[AutoFakeBold=true]{SourceHanSerifCN-Regular.ttf}
+\usepackage[normalem]{ulem}
+\useunder{\uline}{\ul}{}
+\usepackage{longtable}
+\usepackage{url}
+
+\lstset{
+  basicstyle=\small \ttfamily,
+  columns=fullflexible,
+  keepspaces=true,
+  upquote=true,
+  breaklines=true
+}
+\pagestyle{fancy}
+\lhead{青海民族大学《Python金融数据分析》}
+\rhead{\thepage}
+\cfoot{}
+\renewcommand{\title}[1]{\begin{center}{\Large \textbf{#1}}\end{center}}
+\newcommand{\assessment}[1]{ \vspace{0.5cm} {\large \textbf{#1}} \vspace{0.5cm}}
+
+
+\begin{document}
+
+\title{标题}
+
+\section{一级标题}
+
+\end{document}
