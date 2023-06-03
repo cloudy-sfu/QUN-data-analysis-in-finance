@@ -1,43 +1,64 @@
-\documentclass[UTF-8]{ctexart}
-\usepackage[a4paper,margin=1in]{geometry}
-\usepackage{graphicx}
-\usepackage{listings}
-\usepackage{fancyhdr}
-\usepackage{sectsty}
-\usepackage{float}
+% \documentclass[preprint,5p,twocolumn]{elsarticle}
+\documentclass[preprint,3p]{elsarticle}
 \usepackage{amssymb}
+\usepackage{graphicx}
 \usepackage{amsmath}
 \usepackage{amsthm}
-
-\usepackage{xcolor}
-\usepackage{tcolorbox}
-\usepackage{xeCJK}
-% https://github.com/wordshub/free-font
-\setCJKmainfont[AutoFakeBold=true]{SourceHanSerifCN-Regular.ttf}
-\usepackage[normalem]{ulem}
-\useunder{\uline}{\ul}{}
-\usepackage{longtable}
-\usepackage{url}
-
+\usepackage{epstopdf}
+\usepackage{epsfig}
+\usepackage{listings}
 \lstset{
-  basicstyle=\small \ttfamily,
+  basicstyle=\ttfamily,
   columns=fullflexible,
   keepspaces=true,
   upquote=true,
   breaklines=true
 }
-\pagestyle{fancy}
-\lhead{青海民族大学《Python金融数据分析》}
-\rhead{\thepage}
-\cfoot{}
-\renewcommand{\title}[1]{\begin{center}{\Large \textbf{#1}}\end{center}}
-\newcommand{\assessment}[1]{ \vspace{0.5cm} {\large \textbf{#1}} \vspace{0.5cm}}
-
+\usepackage{xcolor}
+\usepackage{float}
+\biboptions{numbers,sort&compress}
+\newtheorem{definition}{Definition}
+\newtheorem{theorem}{Theorem}
+\newtheorem{lemma}{Lemma}
+\newtheorem{corollary}{Corollary}
+\newtheorem{example}{Example}
+\newtheorem{remark}{Remark}
+\newtheorem{property}{Property}
+\newtheorem{proposition}{Proposition}
+\usepackage{xeCJK}
+% https://github.com/wordshub/free-font
+\setCJKmainfont[AutoFakeBold=true]{SourceHanSerifCN-Regular.ttf}
 
 \begin{document}
+\begin{frontmatter}  % article information
 
+% title information
 \title{标题}
 
+% author information
+\author{作者1}
+\author{作者2}
+
+% abstract & keywords
+\begin{abstract}
+摘要。
+\end{abstract}
+
+\begin{keyword}
+关键词1 \sep 关键词2
+\end{keyword}
+
+\end{frontmatter}
+
 \section{一级标题}
+
+正文。
+
+
+\bibliographystyle{plain}
+\bibliography{ref.bib}
+
+\newpage
+\appendix
 
 \end{document}
