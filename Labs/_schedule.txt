@@ -1,3 +1,9 @@
+[Lesson 9]
+Ensemble.ipynb
+
+[Lesson 8]
+Classification.ipynb
+
 [Lesson 7]
 Foundamental of Machine Learning.ipynb
 
