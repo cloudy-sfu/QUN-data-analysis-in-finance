@@ -1,5 +1,6 @@
 [Lesson 9]
 Ensemble.ipynb
+Clustering.ipynb
 
 [Lesson 8]
 Classification.ipynb
