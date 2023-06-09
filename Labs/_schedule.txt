@@ -1,6 +1,7 @@
 [Lesson 9]
 Ensemble.ipynb
 Clustering.ipynb
+Time series regression.ipynb
 
 [Lesson 8]
 Classification.ipynb
