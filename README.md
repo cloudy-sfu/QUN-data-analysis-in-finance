@@ -1,5 +1,7 @@
 # QUN data analysis in finance
 
+[English](README.md) | [中文](README-cn.md)
+
 |             | Meta Information                            |
 | ----------- | ------------------------------------------- |
 | Course name | Python Data Analysis in Finance             |
@@ -7,16 +9,11 @@
 | Semester    | 2022-2023 Academic Year, Semester 2         |
 | Language    | Chinese (Simplified)                        |
 
+## News
 
+Update 2023-06-10: The research questions 1 and 5 is modified, unclear expression removed. If you have submitted your question choice form and chose question 1 or 5, you could submit a response again.
 
-|          | 属性                     |
-| -------- | ------------------------ |
-| 课程名称 | Python 金融数据分析      |
-| 学校     | 青海民族大学，中国       |
-| 学期     | 2022~2023学年度，第2学期 |
-| 语言     | 简体中文                 |
-
-## 1. Quick start
+## Quick start
 
 1.   Download [GitHub Desktop](https://desktop.github.com/) and install.
 2.   Click `Add | Clone repository ...` button.<br>
