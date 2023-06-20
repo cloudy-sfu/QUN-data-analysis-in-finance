@@ -1,0 +1,69 @@
+\documentclass[aspectratio=1610]{beamer}
+% Accepted aspect ratios: 1610, 169, 149, 54, 43 and 32
+% For more themes, color themes and font themes, see:
+% https://deic.uab.cat/~iblanes/beamer_gallery
+%
+\mode<presentation>
+{  % there are "default" options.
+  \usetheme{Boadilla}      % or try Darmstadt, Madrid, Warsaw, ...
+  % add "hideothersubsections" to hide subsections which isn't in current section
+  \useoutertheme[left,height=0,width=3cm]{sidebar}  
+  \usecolortheme{default} % or try albatross, beaver, crane, ...
+  \usefonttheme{default}  % or try serif, structurebold, ...
+  \setbeamertemplate{navigation symbols}{}
+  \setbeamertemplate{caption}[numbered]
+  % https://www.cpt.univ-mrs.fr/~masson/latex/Beamer-appearance-cheat-sheet.pdf
+  \setbeamercolor{title in sidebar}{fg=blue!60!black}
+  \setbeamercolor{section in sidebar}{fg=blue!60!black}
+  \setbeamercolor{subsection in sidebar}{fg=blue!60!black}
+  \setbeamercolor{author in sidebar}{fg=black}
+  \setbeamercolor{section in sidebar shaded}{fg=black}
+  \setbeamercolor{subsection in sidebar shaded}{fg=black}
+  \setbeamercolor{subsubsection in sidebar shaded}{fg=black}
+  % https://tug.ctan.org/macros/latex/contrib/beamer/doc/beameruserguide.pdf (page 67)
+  \setbeamertemplate{sidebar canvas left}[vertical shading][middle=black!20]
+}
+
+\usepackage[english]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{amsthm}
+\usepackage{epstopdf}
+\usepackage{epsfig}
+\usepackage{listings}
+\lstset{
+  basicstyle=\ttfamily,
+  columns=fullflexible,
+  keepspaces=true,
+  upquote=true,
+  breaklines=true
+}
+\usepackage{xcolor}
+\usepackage{float}
+\usepackage{xeCJK}
+% https://github.com/wordshub/free-font
+\setCJKmainfont[AutoFakeBold=true]{SourceHanSerifCN-Regular.ttf}
+
+\title[题目1]{标题}
+\author[成员1]{成员1，成员2，成员3，...}
+\institute[青海民族大学]{青海民族大学}
+\date{\today}
+
+\begin{document}
+
+\begin{frame} \titlepage \end{frame}
+\begin{frame}[t, allowframebreaks]{目录} \tableofcontents \end{frame}
+
+\begin{frame}[t, allowframebreaks]{页面标题}
+    
+\end{frame}
+
+\begin{frame}[t, allowframebreaks]{参考文献}
+    \bibliographystyle{plain}
+    \bibliography{ref.bib}
+\end{frame}
+
+\end{document}
