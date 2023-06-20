@@ -28,12 +28,45 @@
 \usepackage{xeCJK}
 % https://github.com/wordshub/free-font
 \setCJKmainfont[AutoFakeBold=true]{SourceHanSerifCN-Regular.ttf}
+\newCJKfontfamily\Fangsong{Fangzheng-Fangsong.ttf}
+\usepackage{setspace}
 
 \begin{document}
-\begin{frontmatter}  % article information
 
+\title{我的标题}
+\makeatletter\let\Title\@title\makeatother
+
+\begin{titlepage}
+    \begin{center}
+        \begin{figure}[H]
+            \centering
+            \includegraphics[width=2.33in]{QUN-logo.png}
+        \end{figure}
+        \textbf{\Huge 研~究~生~课~程~论~文} \\
+        \vspace{0.1in} （2022—2023学年第2学期）
+    \end{center}
+    \vspace{0.2in} \textbf{\LARGE \raggedleft 题目：\Title}
+    \begin{center}
+        \vspace{0.2in} \textbf{\LARGE 说明} \\
+    \end{center}
+
+\begin{doublespace}
+{\CJKfamily{Fangsong} \noindent
+1. 课程论文要有题目、作者姓名、摘要、关键词、正文及参考文献。格式规范可参考《青海民族大学研究生论文编写规范》。 \\
+2. 课程论文应为本人原创撰写，研究生院将随机抽查各学院课程论文并进行复制比检测，如发现论文是从网上下载或者抄袭剽窃他人文章的，按作弊处理，本门课程考核成绩计为0分，随下一年级重修。 \\
+3. 课程论文应及时提交纸质版，任课教师进行评阅并打分后，及时提交学院归档保存。 \\
+4. 论文题目、篇幅、内容等由任课教师做出具体要求。
+}   
+\end{doublespace}
+
+\end{titlepage}
+
+
+\newpage
+
+\begin{frontmatter}  % article information
 % title information
-\title{标题}
+\title
 
 % author information
 \author{作者1}
