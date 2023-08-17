@@ -1,21 +1,28 @@
-# QUN-Data-Analysis-in-Finance
- Homepage of course "Python Data Analysis in Finance" at Qinghai University for Nationalities
+# QUN Data Analysis in Finance
+|             |                                             |
+| ----------- | ------------------------------------------- |
+| Course name | Python Data Analysis in Finance             |
+| Institution | Qinghai University for Nationalities, China |
+| Semester    | 2022-2023 Academic Year, Semester 2         |
+| Language    | Chinese (Simplified)                        |
 
-![](https://shields.io/badge/language-zh--CN-pink)
 
-Course name: Python Data Analysis in Finance
 
-Institution: Qinghai University for Nationalities
+## Quick start
 
-Semester: 2022-2023 Academic Year, Semester 2
+1. Download [GitHub Desktop](https://desktop.github.com/) and install.
 
----
+2. Click `Add | Clone repository ...` button.
 
-青海民族大学 “Python 金融数据分析” 课程主页
+   <img src="assets/Snipaste_2023-03-10_15-27-29.png" width="300px">
 
-课程名称：Python 金融数据分析
+3. Input the link https://github.com/cloudy-sfu/QUN-Data-Analysis-in-Finance and sync the repository to the local machine.
 
-学校：青海民族大学
+   <img src="assets/image-20230310152958843.png" width="300px">
 
-学期：2022-2023学年，第2学期
+4. Click `Fetch origin` and sync updates periodically, thus new articles are available for you.
+
+   <img src="assets/Snipaste_2023-03-10_15-31-24.png" width="300px">
+
+Chinese students: If you cannot visit https://github.com/ please use https://gitee.com/ to create a mirror and update periodically.
 
